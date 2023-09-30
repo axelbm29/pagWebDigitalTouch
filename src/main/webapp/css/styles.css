@@ -1,0 +1,432 @@
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 25px;
+    background-color: white; /* Color gris oscuro */
+    animation: cursorAnimation 1s infinite;
+}
+
+@keyframes cursorAnimation {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url('../font/courgette-regular-webfont.woff2') format('woff2'),
+        url('../font/courgette-regular-webfont.woff') format('woff');
+    /* Agrega otros atributos de fuente si es necesario */
+}
+
+.navbar {
+    background-color: #00565f;
+    height: 75px;
+}
+
+.texto-navbar {
+    color: white;
+}
+
+.header-col1 {
+    float: left;
+    width: 30%;
+    position: relative;
+    margin-top: 170px;
+    left: 17%;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: #398269;
+    color: white;
+}
+
+.header-col2 {
+    float: right;
+    background-image: url('MALETASPNG.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+    width: 64%;
+}
+
+.parrafo-header {
+    float: left;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-family: 'Courgette', sans-serif;
+}
+
+.texto5-section1 {
+    font-size: 17px;
+}
+
+.header-col3 {
+    margin-top: 180px;  
+    margin-bottom: 30px;
+    width: 30%;
+    float: left;
+    left: 45%;
+    position: relative;
+}
+
+.cardsss {
+    margin-top: 750px;
+    margin-bottom: 100px;
+}
+
+.slide-container {
+    max-width: 1150px;
+    width: 100%;
+    max-height: 700px;
+    height: 100%;
+}
+
+.texto1-section2 {
+    margin-top: 20px;
+    right: 30%;
+    text-align: center;
+    position: relative;
+    font-family: 'Courgette', sans-serif;
+    font-size: 35px;
+}
+
+.text2-section2, .text3-section2 {
+    margin-top: 20px;
+    right: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.card {
+    width: 400px;
+    background-color: #fff;
+}
+
+.slide-content {
+    margin: 0 40px;
+    width: 1100px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 195px;
+}
+
+.card-image {
+    position: relative;
+    height: 240px;
+    width: 350px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    width: 500px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-navButton {
+    color: gray;
+    transition: color 0.3s ease;
+}
+.swiper-navButton:hover {
+    color: gray;
+}
+
+.swiper-navButton:after, .swiper-navButton:before {
+    font-size: 40px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #6E93f7;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #4070F4;
+}
+
+.btn-outline-light {
+    font-family: 'Courgette', sans-serif;
+}
+
+.texto-navbar-efecto, .texto-navbar, .texto1-section1, .texto2-section1, .texto3-section1, .texto4-section1 {
+    font-family: 'Courgette', sans-serif;
+    font-size: 30px;
+}
+
+.texto1-section1, .texto2-section1, .texto3-section1, .texto4-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courgette', sans-serif;
+    font-size: 30px;
+}
+
+.card-bandera-izq {
+    height: 110px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+}
+
+.card-bandera-der {
+    height: 110px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+}
+
+.bandera-izq, .bandera-der {
+    height: 70px;
+    width: 67px; 
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+.card-flecha {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.flecha {
+    height: 60px;
+    width: 85px;
+    max-width: 100%;
+    margin-top: 7px;
+}
+
+.row-1 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.row-2 {
+    margin-bottom: 80px;
+    margin-left: 5px;
+}
+
+.rounded-box {
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-1 {
+    margin-right: 30px;
+}
+
+.box-2 {
+    margin-left: 2px;
+}
+
+.texto-section3-titulo {
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: 'Courgette', sans-serif;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.header-instrucciones {
+    font-family: 'Courgette', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.switch-section3-compradores, .switch-section3-vendedores {
+    margin-bottom: 5px;
+}
+
+.switch-section3-compradores {
+    margin-right: 15px;
+}
+
+.switch-section3-vendedores {
+    margin-left: 15px;
+}
+
+.texto-section3-cuerpo {
+    font-family: 'Courgette', sans-serif;
+    font-size: 20px;
+}
+
+.fila-hr {
+    justify-content: center;
+    font-family: 'Courgette', sans-serif;
+}
+
+.card-instruccion-1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    margin-top: 10px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    height: 326px;
+}
+.card-instruccion-2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 370px;
+    width: 800px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    height: 326px;
+}
+.card-instruccion-3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 730px;
+    width: 800px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    height: 326px;
+}
+
+.imagen-1-instrucciones {
+    max-width: 326px;
+    max-height: 326px;
+    margin-left: 85px;
+    margin-bottom: 25px;
+}
+
+.card-number {
+    width: 50px;
+    font-size: 40px;
+    margin-bottom: 120px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Courgette', sans-serif;
+}
+
+.card-body-instrucciones {
+    margin-right: 40px;
+    margin-left: 50px;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Courgette', sans-serif;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.boton-crearpedido {
+    margin-top: 1150px;
+    margin-bottom: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.footer-options {
+    margin-top: 1400px;
+    background-color: #00565f;
+    height: 300px;
+}
+
+.logoAvionFooter {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.textologo-footer {
+    color: white;
+    font-family: 'Courgette', sans-serif;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-right: 10px;
+    float: right;
+}
+
+.opcion1-footer, .opcion2-footer, .opcion3-footer {
+    color: white;
+    font-family: 'Courgette', sans-serif;
+    font-size: 32px;
+    margin-left: 100px;
+}
+
+.opcion1-footer {
+    margin-top: 35px;
+}
+
+.opcion2-footer, .opcion3-footer {
+    margin-top: 40px;
+}
+
+.footer-box {
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    border: 1px solid white;
+}
+
+.idioma-español, .idioma-ingles {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-family: 'Courgette', sans-serif;
+}
+
+.idioma-español:hover, .idioma-ingles:hover {
+    background-color: #398269;
+}
+
+.linea-footer {
+    margin: 0;
+    border: 0;
+    border-top: 4px solid white;
+    border-color: white;
+}
